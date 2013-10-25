@@ -26,7 +26,7 @@ int main(){
 			cout<<"4)录入成绩"<<endl;
 			cout<<"5)退出程序"<<endl;
 			cin>>action;
-		    if(cin.fail()){
+		    if(cin.fail()){       //判断输入类型是否正确
 				cin.clear(ios::goodbit);
 				cin.get();
 			}
