@@ -25,6 +25,7 @@ int main(){
 			cout<<"3)退选（删除学生）"<<endl;
 			cout<<"4)录入成绩"<<endl;
 			cout<<"5)退出程序"<<endl;
+			cout<<"--------------菜单-----------------"<<endl;
 			cin>>action;
 		    if(cin.fail()){       //判断输入类型是否正确
 				cin.clear(ios::goodbit);
